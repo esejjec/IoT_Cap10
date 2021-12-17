@@ -1,4 +1,5 @@
-# IoT_cap_10
+# IoT Cap 10
+
 # Integrantes
 
 > Luz Pilco Pancca 
@@ -16,38 +17,27 @@
 ![sq](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure10.png?raw=true)
 
 ```
-> // Search rules
-> msg.topic = "SELECT * FROM ruleEngine" +
->	" WHERE" +
->	" ('" + msg.topic + "' LIKE topicPattern)" +
->	" AND" +
->	" ('" + msg.payload + "' LIKE payloadPattern)" +
->	" AND active=1";
-> return msg;
+// Search rules
+msg.topic = "SELECT * FROM ruleEngine" +
+	" WHERE" +
+	" ('" + msg.topic + "' LIKE topicPattern)" +
+	" AND" +
+	" ('" + msg.payload + "' LIKE payloadPattern)" +
+	" AND active=1";
+return msg;
 ```
-
-> // Search rules
-> msg.topic = "SELECT * FROM ruleEngine" +
->	" WHERE" +
->	" ('" + msg.topic + "' LIKE topicPattern)" +
->	" AND" +
->	" ('" + msg.payload + "' LIKE payloadPattern)" +
->	" AND active=1";
-> return msg;
-
-> // Call webhook
-> 
-> if(msg.payload.length !== 0)
->
-> {
->	for(var i = 0; i < msg.payload.length; i++)
->	{
->		msg.method = msg.payload[i].method;
->		msg.url = msg.payload[i].webHook;
->		node.send([msg]);
->	}
->}
-
+```
+// Call webhook
+if(msg.payload.length !== 0)
+{
+	for(var i = 0; i < msg.payload.length; i++)
+	{
+		msg.method = msg.payload[i].method;
+		msg.url = msg.payload[i].webHook;
+		node.send([msg]);
+	}
+}
+```
 
 HTTP request node configuration
 
