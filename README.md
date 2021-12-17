@@ -47,11 +47,11 @@ HTTP request node configuration
 
 > mosquitto_sub -h test.mosquitto.org -t timestamp -v
 
-![sq4](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure4.png?raw=true)
+![sq4](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure3.png?raw=true)
 
 > mosquitto_pub -t timestamp -m "Hello world" -h test.mosquitto.org
 
-![sq3](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure3.png?raw=true)
+![sq3](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure4.png?raw=true)
 
 
 
