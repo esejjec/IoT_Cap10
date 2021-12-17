@@ -37,12 +37,12 @@ if(msg.payload.length !== 0)
 
 HTTP request node configuration
 
-![sq1](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure5png?raw=true)
+![http](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure5png?raw=true)
 
-## esting the Rule Engine
+## Testing the Rule Engine
 
-![sq1](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure4ng?raw=true)
+![sq4](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure4ng?raw=true)
 
-![sq1](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure3ng?raw=true)
+![sq3](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure3ng?raw=true)
 
-![sq1](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure1.png?raw=true)
+![sq10](https://github.com/esejjec/IoT_Cap10/blob/main/img/figure1.png?raw=true)
